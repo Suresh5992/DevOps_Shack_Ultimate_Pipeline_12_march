@@ -70,6 +70,8 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 ```
 
 sudo chmod 666 /var/run/docker.sock
+
+
 docker pull hello-world
 
 Save this script in a file, for example, `install_docker.sh`, and make it executable using:
